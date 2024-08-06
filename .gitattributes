@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
+# Set the default behavior for text files
 * text=auto
+
+# Treat specific file types as binary (e.g., images, fonts)
+*.jpg binary
+*.png binary
+*.woff binary
+
+# Specify line-ending normalization for text files
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
