@@ -37,8 +37,11 @@ body {
     margin: 0 auto;
   }
   .half-container {
-    max-width: 528px;
+    max-width: 50%;
     margin: 0 auto;
+  }
+  .svg-color {
+    fill: #94a3b8;
   }
 
   input[type='number']::-webkit-inner-spin-button,
@@ -46,6 +49,7 @@ body {
     -webkit-appearance: none;
     margin: 0;
   }
+
   input[type='number'] {
     -moz-appearance: textfield;
   }

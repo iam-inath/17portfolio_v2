@@ -1,15 +1,7 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
 import Body from './components/Body'
 
 function App() {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
-  )
+  return <Body />
 }
 
 export default App
