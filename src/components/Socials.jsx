@@ -3,13 +3,17 @@ import { socialMedia } from '../data/data'
 
 export default function Socials() {
   return (
-    <div className="flex  gap-5 my-9 lg:mt-[200px]">
+    <div className="flex items-center justify-start gap-5 my-9">
       {socialMedia.map((icon, index) => (
-        <a href={icon.href} target="_blank">
+        <a
+          href={icon.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={index}
+        >
           <div
-            key={index}
             dangerouslySetInnerHTML={{ __html: icon.svg }}
-            className="w-6 h-6 svg-color hover:opacity-70"
+            className="w-6 h-6 svg-color hover:slate-200"
           />
         </a>
       ))}

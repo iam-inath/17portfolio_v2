@@ -1,0 +1,16 @@
+{
+  "short_name": "Personal Portfolio Website",
+  "name": "Nathan Katshi | Front End Engineer",
+  "icons": [
+    {
+      "src": "g-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0F172A",
+  "background_color": "#0F172A"
+}

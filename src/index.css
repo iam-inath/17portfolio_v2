@@ -25,9 +25,23 @@ html,
 body {
   font-family: 'Inter', sans-serif;
   color: #94a3b8;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
 }
 
 @layer components {
+  .right-side::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
+  .right-side {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
   .max-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -42,6 +56,9 @@ body {
   }
   .svg-color {
     fill: #94a3b8;
+  }
+  .slate-200 {
+    fill: #e2e8f0;
   }
 
   input[type='number']::-webkit-inner-spin-button,
@@ -103,7 +120,7 @@ body {
   }
 
   .padding-b {
-    @apply pb-12 sm:pb-24;
+    @apply pb-12 sm:py-24;
   }
 
   .info-text {

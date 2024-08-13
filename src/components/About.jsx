@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div id="about">
-      <h2 className="text-sm font-bold tracking-widest uppercase mb-9 text-slate-200 lg:sr-only">
+    <div id="about" className="mb-24">
+      <h2 className="mb-10 text-sm font-bold leading-7 tracking-widest uppercase text-slate-200 lg:sr-only">
         About
       </h2>
       <p className="">

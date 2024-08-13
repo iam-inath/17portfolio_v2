@@ -6,6 +6,104 @@ export const person = [
       'I build pixel-perfect, engaging, and accessible digital experiences.',
   },
 ]
+export const experience = [
+  {
+    company: 'Shaba Industry',
+    currentPosition: 'Senior Front End Engineer',
+    previousPositionOne: 'Front End Engineer',
+    previousPositionTwo: 'Product Development Manager',
+    duration: '2022 - present',
+    description:
+      'Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.',
+    companyURL: 'Front End Engineer',
+    products: [
+      { name: 'ProdOne', url: 'https://prodone.com' },
+      { name: 'ProdTwo', url: 'https://prodone.com' },
+    ],
+    techStack: [
+      'JavaScript',
+      'React',
+      'Typescript',
+      'Tailwind CSS',
+      'SCSS',
+      'WordPress',
+      'Wix',
+      'Express',
+      'Netlify',
+    ],
+  },
+  {
+    company: 'Shaba Industry',
+    currentPosition: 'Senior Front End Engineer',
+    previousPositionOne: 'Front End Engineer',
+    previousPositionTwo: 'Product Development Manager',
+    duration: '2022 - present',
+    description:
+      'Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.',
+    companyURL: 'Front End Engineer',
+    products: [
+      { name: 'ProdOne', url: 'https://prodone.com' },
+      { name: 'ProdTwo', url: 'https://protwotwo.com' },
+    ],
+    techStack: [
+      'JavaScript',
+      'React',
+      'Typescript',
+      'Tailwind CSS',
+      'SCSS',
+      'WordPress',
+      'Wix',
+      'Express',
+      'Netlify',
+    ],
+  },
+]
+export const projects = [
+  {
+    src: './project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: [
+      'JavaScript',
+      'React',
+      'Typescript',
+      'Tailwind CSS',
+      'SCSS',
+      'WordPress',
+      'Wix',
+      'Express',
+      'Netlify',
+    ],
+    url: 'https://katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: './project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: [
+      'JavaScript',
+      'React',
+      'Typescript',
+      'Tailwind CSS',
+      'SCSS',
+      'WordPress',
+      'Wix',
+      'Express',
+      'Netlify',
+    ],
+    url: 'https://katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+]
 
 export const sections = [
   { label: 'About', href: '#about' },
@@ -20,8 +118,8 @@ export const socialMedia = [
     href: 'https://instagram.com/iam-inath',
   },
   {
-    name: 'x',
-    svg: '<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z"/></svg>',
+    name: 'discord',
+    svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/></svg>',
     href: 'https://instagram.com/iam_inath',
   },
   {

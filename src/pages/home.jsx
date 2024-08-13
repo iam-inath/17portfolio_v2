@@ -1,10 +1,10 @@
-import Sections from './Sections'
-import Socials from './Socials'
-import About from './About'
-import Identity from './Identity'
-import Experience from './Experience'
-import Notes from './Notes'
-import Projects from './Projects'
+import Sections from '../components/Sections'
+import Socials from '../components/Socials'
+import About from '../components/About'
+import Identity from '../components/Identity'
+import Experience from '../components/Experience'
+import Notes from '../components/Notes'
+import Projects from '../components/Projects'
 
 function Body() {
   return (

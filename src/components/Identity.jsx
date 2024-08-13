@@ -7,7 +7,7 @@ function Identity() {
       <h1 className="text-4xl font-bold tracking-tight text-slate-100 md:text-5xl">
         {pers.name}
       </h1>
-      <h4 className="my-5 text-lg font-medium tracking-tight md:text-xl text-slate-100 lg:font-bold">
+      <h4 className="mt-3 mb-6 text-lg font-normal tracking-tight md:text-xl text-slate-100 lg:font-normal">
         {pers.position}
       </h4>
       <p className="text-slate-400">
