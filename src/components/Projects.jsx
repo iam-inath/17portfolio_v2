@@ -11,18 +11,15 @@ function Projects() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="relative transition-opacity duration-300 mb-14 lg:rounded-lg md:flex bg-slate-900 hover:bg-opacity-50"
+          className="relative flex p-5 transition-all lg:hover:!opacity-100 lg:group-hover:opacity-50 rounded lg:hover:cursor-pointer lg:hover:border-slate-200/30 group mb-14 lg:rounded-lg max-md:flex-col md:flex-row-reverse bg-slate-900 hover:bg-opacity-50"
         >
-          <div className="mb-2 text-xs uppercase lg:w-1/4">
-            <Link to={project.url}>
-              <img src={project.src} alt={project.name} />
-            </Link>
-            thumbnail
-          </div>
           <div className="lg:w-3/4">
-            <h2 className="mb-1 font-medium leading-tight hover:text-secondary text-slate-200">
-              {project.name} ➚
-            </h2>
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <h2 className="mb-1 font-medium leading-tight group-hover:text-secondary text-slate-200">
+                {project.name} ➚
+              </h2>
+            </a>
+
             <p className="my-3 text-sm leading-normal text-slate-400">
               {project.description}
             </p>
@@ -41,6 +38,16 @@ function Projects() {
                 </h3>
               ))}
             </div>
+          </div>
+          <div className="mb-2 mr-4 text-xs uppercase max-md:w-1/2 lg:w-1/4">
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <img
+                src={project.src}
+                loading="lazy"
+                alt={project.name}
+                className="transition h-[84px] w-[200px] border-2 rounded border-slate-200/10 hover:border-slate-200/30 group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 lg:h-auto lg:w-full"
+              />
+            </a>
           </div>
         </div>
       ))}

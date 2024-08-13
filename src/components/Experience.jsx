@@ -15,7 +15,7 @@ function Experience() {
           key={index}
         >
           <div className="relative transition-opacity duration-300 mb-14 lg:rounded-lg md:flex bg-slate-900 hover:bg-opacity-50">
-            <h2 className="mb-2 text-xs uppercase lg:w-1/4">
+            <h2 className="mb-2 mr-4 text-xs uppercase lg:w-1/4">
               {position.duration}
             </h2>
             <div className="lg:w-3/4">
