@@ -66,6 +66,26 @@ body::-webkit-scrollbar {
     -webkit-appearance: none;
     margin: 0;
   }
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+  }
+
+  .sticky-header.stuck {
+    background-color: rgba(30, 41, 59, 0.9); /* More opaque when stuck */
+  }
+
+  .right-side {
+    overflow: auto; /* Allow scrolling */
+    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+
+  .right-side::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+  }
 
   input[type='number'] {
     -moz-appearance: textfield;

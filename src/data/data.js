@@ -66,19 +66,11 @@ export const projects = [
       'I build pixel-perfect, engaging, and accessible digital experiences.',
 
     achievements: '100k Installs',
-    techUsed: [
-      'JavaScript',
-      'React',
-      'Typescript',
-      'Tailwind CSS',
-      'SCSS',
-      'WordPress',
-      'Wix',
-      'Express',
-      'Netlify',
-    ],
+    techUsed: ['JavaScript', 'React', 'Typescript'],
     url: 'https://katshi.dev',
     year: '2014',
+    label: 'katshi.dev',
+
     company: 'Shaba Industry',
   },
   {
@@ -88,18 +80,198 @@ export const projects = [
     achievements: 'Product Development Manager',
     description:
       'I build pixel-perfect, engaging, and accessible digital experiences.',
-    techUsed: [
-      'JavaScript',
-      'React',
-      'Typescript',
-      'Tailwind CSS',
-      'SCSS',
-      'WordPress',
-      'Wix',
-      'Express',
-      'Netlify',
-    ],
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
     url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
+    year: '2014',
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project01.png',
+    name: 'Build a Spotify Connected App',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+
+    achievements: '100k Installs',
+    techUsed: ['JavaScript', 'React', 'Typescript'],
+    url: 'https://katshi.dev',
+    year: '2014',
+    label: 'katshi.dev',
+
+    company: 'Shaba Industry',
+  },
+  {
+    src: '/img/project02.png',
+    name: 'Build a Spotify Connected App',
+
+    achievements: 'Product Development Manager',
+    description:
+      'I build pixel-perfect, engaging, and accessible digital experiences.',
+    techUsed: ['JavaScript', 'React', 'Typescript', 'Tailwind CSS'],
+    url: 'https://katshi.dev',
+    label: 'katshi.dev',
     year: '2014',
     company: 'Shaba Industry',
   },

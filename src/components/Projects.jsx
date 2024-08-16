@@ -11,7 +11,7 @@ function Projects() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="relative flex p-5 transition-all lg:hover:!opacity-100 lg:group-hover:opacity-50 rounded lg:hover:cursor-pointer lg:hover:border-slate-200/30 group mb-14 lg:rounded-lg max-md:flex-col md:flex-row-reverse bg-slate-900 hover:bg-opacity-50"
+          className="relative flex mb-10  lg:p-5 transition-all lg:hover:!opacity-100 lg:group-hover:opacity-50 rounded lg:hover:cursor-pointer lg:hover:border-slate-200/30 group  lg:rounded-lg max-md:flex-col md:flex-row-reverse bg-slate-900 hover:bg-opacity-50"
         >
           <div className="lg:w-3/4">
             <a href={project.url} target="_blank" rel="noopener noreferrer">
