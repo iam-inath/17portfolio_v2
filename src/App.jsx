@@ -1,7 +1,7 @@
-import Body from './pages/home.jsx'
+import Body from "./pages/home.jsx";
 
 function App() {
-  return <Body />
+  return <Body />;
 }
 
-export default App
+export default App;

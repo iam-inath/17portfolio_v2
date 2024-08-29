@@ -1,5 +1,5 @@
-import React from 'react'
-import { experience } from '../data/data'
+import React from "react";
+import { experience } from "../data/data";
 
 function Experience() {
   return (
@@ -36,7 +36,7 @@ function Experience() {
                   <div key={productIndex}>
                     <a href={product.url}>
                       <h3 className="mb-3 text-sm capitalize text-slate-300">
-                        ♾️ {product.name}
+                        🔗 {product.name}
                       </h3>
                     </a>
                   </div>
@@ -57,13 +57,14 @@ function Experience() {
         </a>
       ))}
       <a
-        href="#resume"
+        href="./cv/cv_nathankatshi.pdf"
+        target="_blank"
         className="mb-1 font-semibold leading-tight hover:text-secondary text-slate-200"
       >
         View Full Resumé ➚
       </a>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Experience;

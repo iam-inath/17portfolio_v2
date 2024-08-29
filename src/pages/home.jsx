@@ -1,10 +1,11 @@
-import Sections from '../components/Sections'
-import Socials from '../components/Socials'
-import About from '../components/About'
-import Identity from '../components/Identity'
-import Experience from '../components/Experience'
-import Notes from '../components/Notes'
-import Projects from '../components/Projects'
+import Sections from "../components/Sections";
+import Socials from "../components/Socials";
+import About from "../components/About";
+import Identity from "../components/Identity";
+import Experience from "../components/Experience";
+import Notes from "../components/Notes";
+import Projects from "../components/Projects";
+import Achievements from "../components/Achievements";
 
 function Body() {
   return (
@@ -22,11 +23,13 @@ function Body() {
           <About />
           <Experience />
           <Projects />
+          <Achievements />
+
           <Notes />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Body
+export default Body;

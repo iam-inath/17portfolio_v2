@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function About() {
   return (
@@ -7,26 +7,31 @@ function About() {
         About
       </h2>
       <p className="">
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. Fast-forward to today, and I’ve had the privilege of
-        building software for an advertising agency, a start-up, a huge
-        corporation, and a digital product studio.
+        Back in 2013, I decided to try my hand at building a strong foundation
+        in computer maintenance, enterprise networking, systems engineering.
+        Over the years, I honed my skills in various tech domains, gaining
+        valuable experience in cloud technologies and cybersecurity. In 2021, I
+        made a significant shift to focus on development, driven by a passion
+        for creating intuitive and engaging user experiences.
         <br />
-        <br /> My main focus these days is building accessible user interfaces
-        for our customers at Klaviyo. I most enjoy building software in the
-        sweet spot where design and engineering meet — things that look good but
-        are also built well under the hood. In my free time, I've also released
-        an online video course that covers everything you need to know to build
-        a web app with the Spotify API.
+        <br /> Today, I specialize in front-end development, with a keen eye for
+        detail and a commitment to building user interfaces that are both
+        visually appealing and technically robust. I’ve had the pleasure of
+        working on numerous projects, collaborating with diverse teams to bring
+        innovative ideas to life. My expertise lies in blending design and
+        functionality seamlessly, ensuring that every project I work on meets
+        the highest standards of quality and usability.
         <br />
         <br />
-        When I’m not at the computer, I’m usually rock climbing, reading,
-        hanging out with my wife and two cats, or running around Hyrule
-        searching for Korok seedsKorok seeds.
+        When I’m not coding, I enjoy exploring new tech trends, reading, and
+        indulging in my hobbies. Whether it’s diving into a new book,
+        experimenting with the latest tools, or simply enjoying some downtime,
+        I’m always eager to learn and grow. My journey in the tech world is
+        fueled by a continuous desire to push boundaries and create impactful
+        solutions.
       </p>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
