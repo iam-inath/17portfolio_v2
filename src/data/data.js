@@ -6,6 +6,14 @@ export const person = [
       "I build pixel-perfect, engaging, and accessible digital experiences.",
   },
 ];
+
+export const sections = [
+  { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
+  { label: "Fun Facts", href: "#achievements" },
+];
+
 export const experience = [
   {
     company: "Shaba Industry",
@@ -14,8 +22,11 @@ export const experience = [
     previousPositionTwo: "Product Development Manager",
     duration: "2022 - present",
     description:
-      "Build and maintain key front-end components that are crucial to the overall product, ensuring their efficiency and reliability. Work closely with cross-functional teams, including developers, designers, and product managers, to integrate these components seamlessly. Implement and promote best practices in web accessibility, making sure our products are inclusive and user-friendly for all individuals.",
+      "Build and maintain key front-end components that are crucial to the overall product, ensuring their efficiency and reliability. Work closely with cross-functional teams, including developers, designers, and product managers, to integrate these components seamlessly. Implement and promote best practices in web accessibility, making sure our products are inclusive and user-friendly for all individuals",
     companyURL: "https://shabaindustrie.com",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
     products: [
       { name: "Ware House", url: "https://warehousedrc.com" },
       { name: "Shaba Industry", url: "https://shabaindustrie.com" },
@@ -35,12 +46,15 @@ export const experience = [
   {
     company: "CIC Global",
     currentPosition: "Systems Engineer",
-    previousPositionOne: "Front End Developer",
+    previousPositionOne: "",
     previousPositionTwo: "Project Specialist",
     duration: "2020 - 2022",
     description:
-      "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "Designed, deployed, and maintained mission-critical applications in the cloud, ensuring HA, scalability, and security for diverse enterprise environments. Utilized cutting-edge technologies such as AWS to build robust infrastructure that supported seamless operations and rapid deployment. Led the development and implementation of comprehensive web and mobile applications for a wide range of clients, leveraging frameworks like React, Next, Bootstrap, Vue.js, and Flutter. Architected and optimized backend systems, including databases and ERPs, to ensure efficient data flow and integration",
     companyURL: "https://motexcongo.com",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
     products: [{ name: "Mexco SAS", url: "https://mexco-sas.com" }],
     techStack: [
       "React",
@@ -59,6 +73,9 @@ export const experience = [
     description:
       "Led the complete redesign of the corporate network at Lubumbashi HQ and upgraded branch networks by migrating the HQ and 12 branches across the country to a Cisco DMVPN infrastructure (Single-Hub Dual-Cloud over MPLS L3 VPN), optimizing network performance and security. Drafted, implemented, and enforced the company’s IT security policy. Managed company licences, servers, databases, and clusters in a Microsoft environment, ensuring high availability, performance, and security through regular maintenance, updates, and monitoring",
     companyURL: "https://brasimba.com",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
     products: [
       { name: "", url: "" },
       { name: "", url: "" },
@@ -74,98 +91,142 @@ export const experience = [
       "Kaspersky",
     ],
   },
+  {
+    company: "Trust Merchant Bank",
+    currentPosition: "Network Technician",
+    previousPositionOne: "IT Support",
+    duration: "2016 - 2017",
+    description:
+      "Handled network implementation, including LAN cabling and configuration of routers and switches. Deployed Windows and Linux servers, configuring essential network services such as DHCP, FTP, and NAC.Provided technical support to end users, resolving tickets both on-site and remotely",
+
+    companyURL: "https://tmb.cd",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
+    products: [
+      { name: "", url: "" },
+      { name: "", url: "" },
+    ],
+    techStack: ["Cisco Switches", "VoIP", "LAN Cabling"],
+  },
+  {
+    company: "Freeport-McMoRan, TFM",
+    currentPosition: "IT Support",
+    previousPositionOne: "",
+    duration: "2014 - 2015",
+    description:
+      "Performed maintenance and upgrades for computers and printers, including preventive maintenance and software updates. Built computers based on specific requirements before deploying them to end users",
+
+    companyURL: "https://en.cmoc.com/html/business/congo-cu-co",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
+    products: [
+      { name: "", url: "" },
+      { name: "", url: "" },
+    ],
+    techStack: ["Acronis ", "PXE", "Backups & Recovery", , "GLPI"],
+  },
 ];
+
 export const projects = [
   {
-    src: "/img/project01.png",
-    name: "The Ware House DRC",
+    src: "/img/warehousedrc.png",
+    name: "The Ware House",
     description:
-      "I build pixel-perfect, engaging, and accessible digital experiences.",
+      "Crafted a vibrant and interactive website for Ware House, a premier restaurant, lounge bar, and nightclub in the Lubumbashi. Leveraged React, Next.js, TypeScript, and Tailwind CSS to deliver a seamless and engaging user experience, significantly boosting the venue’s online visibility and customer engagement",
 
     achievements: "100k Installs",
-    techUsed: ["React", "Bootstrap", "Javascript"],
+    techUsed: ["React", "Bootstrap", "Node.js", "Firebase"],
     url: "https://warehousedrc.com",
     year: "2024",
-    label: "katshi.dev",
-
+    label: "warehousedrc.com",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
     company: "Shaba Industry",
   },
   {
-    src: "/img/project02.png",
-    name: "Shaba Industry Productions",
+    src: "/img/shabaindustrie.png",
+    name: "Shaba Industry",
 
     achievements: "$ Stars",
     description:
-      "I build pixel-perfect, engaging, and accessible digital experiences.",
-    techUsed: ["JavaScript", "React", "Typescript", "Tailwind CSS"],
+      "As the Lead Engineer, I developed a user-friendly and visually striking website for Shaba Industry, a key player in the entertainment sector. This site serves as a comprehensive portal for customers, partners, and stakeholders to explore their safety equipment and services, enhancing the brand’s online presence and engagement",
+    techUsed: ["React", "Next", "Typescript", "Tailwind CSS", "Bootstrap"],
     url: "https://shabaindustrie.com",
-    label: "katshi.dev",
-    year: "2024",
-    company: "Shaba Industry",
-  },
-  {
-    src: "/img/project01.png",
-    name: "Mexco SAS",
-    description:
-      "I build pixel-perfect, engaging, and accessible digital experiences.",
+    label: "shabaindustrie.com",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
 
-    achievements: "100k Installs",
-    techUsed: ["JavaScript", "React", "Typescript"],
-    url: "https://mexco-sas.com",
-    year: "2022",
-    label: "katshi.dev",
-
-    company: "Shaba Industry",
-  },
-  {
-    src: "/img/project02.png",
-    name: "Katshi.dev v1",
-
-    achievements: "Product Development Manager",
-    description:
-      "I build pixel-perfect, engaging, and accessible digital experiences.",
-    techUsed: ["JavaScript", "React", "Typescript", "Tailwind CSS"],
-    url: "https://v1.katshi.dev",
-    label: "katshi.dev",
     year: "2023",
     company: "Shaba Industry",
+  },
+  {
+    src: "/img/mexco-sas.png",
+    name: "Mexco SAS",
+    description:
+      "Mexco SAS, a leading mining equipment rental company, entrusted us with the creation of their online platform. Leveraging modern technologies, I developed a user-friendly website that effectively showcases their services and solutions for the mining industry",
+
+    achievements: "100k Installs",
+    techUsed: ["Wix", "HTML", "SAAS"],
+    url: "https://mexco-sas.com",
+    year: "2022",
+    label: "mexco-sas.com",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
+    company: "CIC Global",
+  },
+  {
+    src: "/img/katshi-v1.png",
+    name: "Katshi.dev v1",
+
+    achievements: "",
+    description:
+      "An old personal portfolio showcasing my front-end development skills using HTML, SAAS and JavaScript",
+    techUsed: ["HTML", "SCSS", "JavaScript"],
+    url: "https://v1.katshi.dev",
+    label: "v1.katshi.dev",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
+    year: "2022",
+    company: "Katshi.dev",
   },
 ];
 export const achievements = [
   {
-    src: "/img/project01.png",
-    name: "Cisco NetRiders 2016",
+    src: "/img/netriders.png",
+    name: "NetRiders 2016",
     description:
-      "I build pixel-perfect, engaging, and accessible digital experiences.",
+      " Achieved first place in the Sub-Saharan Africa region in the prestigious Cisco NetRiders competition, showcasing exceptional networking skills and knowledge",
 
     achievements: "100k Installs",
-    techUsed: ["JavaScript", "React", "Typescript"],
-    url: "https://katshi.dev",
-    year: "2014",
-    label: "katshi.dev",
+    techUsed: ["CCNA", "CCENT", "Routing and Switching", "Security"],
+    url: "https://icemalta.com/campaigns/cisco-netriders-competition/",
+    year: "2016",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+
+    label: "Cisco Networking Academy Netriders 2016",
 
     company: "Shaba Industry",
   },
   {
-    src: "/img/project01.png",
-    name: "TP Mazembe Training",
+    src: "/img/lazola.png",
+    name: "Innovative Lazola Football Training",
     description:
-      "I build pixel-perfect, engaging, and accessible digital experiences.",
+      "I enjoy directing innovative sports training videos as a hobby. My work on the Lazola coach training video with TP Mazembe players blends sports training with engaging visual storytelling. The video gained significant traction on social media and was featured on BBC Africa News",
 
-    achievements: "100k Installs",
-    techUsed: ["JavaScript", "React", "Typescript"],
-    url: "https://katshi.dev",
-    year: "2014",
-    label: "katshi.dev",
-
-    company: "Shaba Industry",
+    achievements: "+710k social media views",
+    techUsed: ["Adobe Premiere Pro", "Adobe Photoshop", "Sony A7SIII"],
+    url: "https://www.youtube.com/watch?v=U59uwYBJndQ",
+    year: "2022",
+    linkIcon: "/icons/link.png",
+    achievementIcon: "/icons/link.png",
+    label: "Lazola Training",
+    company: "Lugan Media",
   },
-];
-export const sections = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Achievements", href: "#achievements" },
 ];
 
 export const socialMedia = [

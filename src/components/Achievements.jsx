@@ -1,5 +1,6 @@
 import React from "react";
 import { achievements } from "../data/data";
+import { Link } from "react-router-dom";
 
 function Achievements() {
   return (
@@ -12,7 +13,7 @@ function Achievements() {
           key={index}
           className="relative flex mb-10  lg:p-5 transition-all lg:hover:!opacity-100 lg:group-hover:opacity-50 rounded lg:hover:cursor-pointer lg:hover:border-slate-200/30 group  lg:rounded-lg max-md:flex-col md:flex-row-reverse bg-slate-900 hover:bg-opacity-50"
         >
-          <div className="lg:w-3/4">
+          <div className="md:w-3/4">
             <a href={achievement.url} target="_blank" rel="noopener noreferrer">
               <h2 className="mb-1 font-medium leading-tight group-hover:text-secondary text-slate-200">
                 {achievement.name} ➚
@@ -23,9 +24,24 @@ function Achievements() {
               {achievement.description}
             </p>
             <div className="flex flex-row flex-wrap justify-start gap-2">
-              <h3 className="mb-3 text-sm capitalize text-slate-300">
-                ♾️ {achievement.achievements}
-              </h3>
+              <a
+                href={achievement.url}
+                className="flex items-center my-2 group"
+              >
+                <img
+                  src={achievement.achievementIcon}
+                  height={20}
+                  width={20}
+                  className="mr-1 transition-colors duration-100 icon"
+                  style={{
+                    filter:
+                      "invert(88%) sepia(7%) saturate(0%) hue-rotate(180deg) brightness(95%) contrast(90%)",
+                  }}
+                />
+                <h3 className="text-sm capitalize transition-colors duration-300 text-slate-300">
+                  {achievement.achievements}
+                </h3>
+              </a>
             </div>
             <div className="flex flex-row flex-wrap justify-start gap-2 mb-5 wrap">
               {achievement.techUsed.map((tech, index) => (
@@ -38,13 +54,13 @@ function Achievements() {
               ))}
             </div>
           </div>
-          <div className="mb-2 mr-4 text-xs uppercase max-md:w-1/2 lg:w-1/4">
+          <div className="mb-2 mr-4 text-xs uppercase max-md:w-1/2 md:w-1/4">
             <a href={achievement.url} target="_blank" rel="noopener noreferrer">
               <img
                 src={achievement.src}
                 loading="lazy"
                 alt={achievement.name}
-                className="transition h-[84px] w-[200px] border-2 rounded border-slate-200/10 hover:border-slate-200/30 group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 lg:h-auto lg:w-full"
+                className="transition h-[84px] w-[200px] border-2 rounded border-slate-200/10 hover:border-slate-200/30 max-md:w-1/2 group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 lg:h-auto lg:w-full"
               />
             </a>
           </div>

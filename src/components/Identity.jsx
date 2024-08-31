@@ -1,10 +1,10 @@
-import React from 'react'
-import { person } from '../data/data'
+import React from "react";
+import { person } from "../data/data";
 
 function Identity() {
   const people = person.map((pers) => (
     <div key={pers.name}>
-      <h1 className="text-4xl font-bold tracking-tight text-slate-100 md:text-5xl">
+      <h1 className="text-4xl font-bold tracking-tight font-poppins text-slate-100 md:text-5xl">
         {pers.name}
       </h1>
       <h4 className="mt-3 mb-6 text-lg font-normal tracking-tight md:text-xl text-slate-100 lg:font-normal">
@@ -15,9 +15,9 @@ function Identity() {
         experiences.
       </p>
     </div>
-  ))
+  ));
 
-  return <>{people}</>
+  return <>{people}</>;
 }
 
-export default Identity
+export default Identity;
