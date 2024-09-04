@@ -1,30 +1,30 @@
-import React from "react";
+import React from 'react'
 
 function About() {
   return (
-    <div id="about" className="mb-28">
-      <h2 className="mb-10 text-sm font-bold leading-7 tracking-widest uppercase text-slate-200 lg:sr-only">
+    <div id='about' className='mb-28'>
+      <h2 className='mb-10 text-sm font-bold leading-7 tracking-widest uppercase text-slate-200 lg:sr-only'>
         About
       </h2>
-      <p className="">
+      <p className=''>
         Back in 2013, I decided to try my hand at building a strong foundation
-        in computer maintenance,{" "}
-        <span className=" text-slate-200">
-          enterprise networking and systems engineering.{" "}
+        in computer maintenance,{' '}
+        <span className=' text-slate-200'>
+          enterprise networking and systems engineering.{' '}
         </span>
         Over the years, I honed my skills in various tech domains, gaining
-        valuable experience in{" "}
-        <span className=" text-slate-200">cloud technologies</span> and{" "}
-        <span className=" text-slate-200">cybersecurity.</span> In 2021, I made
+        valuable experience in{' '}
+        <span className=' text-slate-200'>cloud technologies</span> and{' '}
+        <span className=' text-slate-200'>cybersecurity.</span> In 2021, I made
         a significant shift to focus on development, driven by a passion for
         creating intuitive and engaging user experiences.
         <br />
         <br /> Today, I specialize in front-end development, with a keen eye for
         detail and a commitment to building user interfaces that are both
-        visually appealing and{" "}
-        <span className=" text-slate-200">technically robust. </span> I’ve had
+        visually appealing and{' '}
+        <span className=' text-slate-200'>technically robust. </span> I’ve had
         the pleasure of working on numerous projects, collaborating with diverse
-        teams to bring <span className=" text-slate-200">innovative ideas</span>{" "}
+        teams to bring <span className=' text-slate-200'>innovative ideas</span>{' '}
         to life. My expertise lies in blending design and functionality
         seamlessly, ensuring that every project I work on meets the highest
         standards of quality and usability.
@@ -38,7 +38,7 @@ function About() {
         solutions.
       </p>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About
