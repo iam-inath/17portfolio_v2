@@ -31,13 +31,13 @@ function Notes() {
           <span className='text-slate-200 hover:text-secondary'>Netlify</span>
         </a>{' '}
         . All text is set in the{' '}
-        <a href='https://www.inter.com'>
+        <a href='https://fonts.google.com/specimen/Inter'>
           <span className='text-slate-200 hover:text-secondary'> Inter</span>
         </a>{' '}
         typeface.
       </p>
       <p className='my-10 text-center'>
-        Copyright 2022 - {new Date().getFullYear()} •{' '}
+        Copyright 2021 - {new Date().getFullYear()} •{' '}
         <a href='https://www.katshi.dev'>
           <span className='text-slate-200 hover:text-secondary'>
             Katshi.dev

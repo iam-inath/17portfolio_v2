@@ -1,6 +1,7 @@
 import React from 'react'
 import { achievements } from '../data/data'
 import { Link } from 'react-router-dom'
+import { downloads, eye, externalLink } from '/public/icons/icons'
 
 function Achievements() {
   return (
@@ -14,36 +15,51 @@ function Achievements() {
           className='relative flex mb-10  lg:p-5 transition-all lg:hover:!opacity-100 lg:group-hover:opacity-50 rounded lg:hover:cursor-pointer lg:hover:border-slate-200/30 group  lg:rounded-lg max-md:flex-col md:flex-row-reverse bg-slate-900 hover:bg-opacity-50'
         >
           <div className='md:w-3/4'>
-            <a href={achievement.url} target='_blank' rel='noopener noreferrer'>
+            <a
+              href={achievement.url}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex items-center '
+            >
               <h2 className='mb-1 font-medium leading-tight group-hover:text-secondary text-slate-200'>
-                {achievement.name} ➚
+                {achievement.name}
               </h2>
+              <img
+                src={externalLink}
+                height={20}
+                width={20}
+                className='ml-2 icon group-hover:icon-hover'
+              />
             </a>
 
             <p className='my-3 text-sm leading-normal text-slate-400'>
               {achievement.description}
             </p>
             <div className='flex flex-row flex-wrap justify-start gap-2'>
-              <a
-                href={achievement.url}
-                className='flex items-center my-2 group'
-              >
-                <img
-                  src={achievement.achievementIcon}
-                  height={20}
-                  width={20}
-                  className='mr-1 transition-colors duration-100 icon'
-                  style={{
-                    filter:
-                      'invert(88%) sepia(7%) saturate(0%) hue-rotate(180deg) brightness(95%) contrast(90%)',
-                  }}
-                />
-                <h3 className='text-sm capitalize transition-colors duration-300 text-slate-300'>
-                  {achievement.achievements}
-                </h3>
-              </a>
+              {achievement.achievements ? (
+                <a
+                  href={achievement.url}
+                  className='flex items-center mb-3 group'
+                >
+                  <img
+                    src={achievement.achievementIcon}
+                    height={20}
+                    width={20}
+                    className='mr-2 transition-colors duration-100 icon'
+                    style={{
+                      filter:
+                        'invert(88%) sepia(7%) saturate(0%) hue-rotate(180deg) brightness(95%) contrast(90%)',
+                    }}
+                  />
+                  <h3 className='text-sm capitalize transition-colors duration-300 text-slate-300'>
+                    {achievement.achievements}
+                  </h3>
+                </a>
+              ) : (
+                ''
+              )}
             </div>
-            <div className='flex flex-row flex-wrap justify-start gap-2 mb-5 wrap'>
+            <div className='flex flex-row flex-wrap justify-start gap-2 mt-1 mb-5 wrap'>
               {achievement.techUsed.map((tech, index) => (
                 <h3
                   key={index}

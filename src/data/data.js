@@ -24,8 +24,8 @@ export const experience = [
     description:
       'Build and maintain key front-end components that are crucial to the overall product, ensuring their efficiency and reliability. Work closely with cross-functional teams, including developers, designers, and product managers, to integrate these components seamlessly. Implement and promote best practices in web accessibility, making sure our products are inclusive and user-friendly for all individuals',
     companyURL: 'https://shabaindustrie.com',
-    linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
 
     products: [
       { name: 'Ware House', url: 'https://warehousedrc.com' },
@@ -52,8 +52,8 @@ export const experience = [
     description:
       'Designed, deployed, and maintained mission-critical applications in the cloud, ensuring HA, scalability, and security for diverse enterprise environments. Utilized cutting-edge technologies such as AWS to build robust infrastructure that supported seamless operations and rapid deployment. Led the development and implementation of comprehensive web and mobile applications for a wide range of clients, leveraging frameworks like React, Next, Bootstrap, Vue.js, and Flutter. Architected and optimized backend systems, including databases and ERPs, to ensure efficient data flow and integration',
     companyURL: 'https://motexcongo.com',
-    linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
 
     products: [{ name: 'Mexco SAS', url: 'https://mexco-sas.com' }],
     techStack: [
@@ -73,8 +73,8 @@ export const experience = [
     description:
       'Led the complete redesign of the corporate network at Lubumbashi HQ and upgraded branch networks by migrating the HQ and 12 branches across the country to a Cisco DMVPN infrastructure (Single-Hub Dual-Cloud over MPLS L3 VPN), optimizing network performance and security. Drafted, implemented, and enforced the company’s IT security policy. Managed company licences, servers, databases, and clusters in a Microsoft environment, ensuring high availability, performance, and security through regular maintenance, updates, and monitoring',
     companyURL: 'https://brasimba.com',
-    linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
 
     products: [
       { name: '', url: '' },
@@ -100,8 +100,8 @@ export const experience = [
       'Handled network implementation, including LAN cabling and configuration of routers and switches. Deployed Windows and Linux servers, configuring essential network services such as DHCP, FTP, and NAC.Provided technical support to end users, resolving tickets both on-site and remotely',
 
     companyURL: 'https://tmb.cd',
-    linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
 
     products: [
       { name: '', url: '' },
@@ -118,45 +118,65 @@ export const experience = [
       'Performed maintenance and upgrades for computers and printers, including preventive maintenance and software updates. Built computers based on specific requirements before deploying them to end users',
 
     companyURL: 'https://en.cmoc.com/html/business/congo-cu-co',
-    linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
 
     products: [
       { name: '', url: '' },
       { name: '', url: '' },
     ],
-    techStack: ['Acronis ', 'PXE', 'Backups & Recovery', , 'GLPI'],
+    techStack: ['Acronis ', 'PXE Deploys', 'Backups & Recovery', , 'GLPI'],
   },
 ]
 
 export const projects = [
   {
     src: '/img/warehousedrc.png',
-    name: 'The Ware House',
+    name: 'Ware House DRC',
     description:
       'Crafted a vibrant and interactive website for Ware House, a premier restaurant, lounge bar, and nightclub in the Lubumbashi. Leveraged React, Next.js, TypeScript, and Tailwind CSS to deliver a seamless and engaging user experience, significantly boosting the venue’s online visibility and customer engagement',
 
-    achievements: '100k Installs',
-    techUsed: ['React', 'Bootstrap', 'Node.js', 'Firebase'],
+    achievements: '',
+    techUsed: [
+      'React.js',
+      'Bootstrap',
+      'Node.js',
+      'Firebase',
+      'EmailJS',
+      'EsLint',
+      'Prettier',
+      'VS Code',
+    ],
     url: 'https://warehousedrc.com',
     year: '2024',
     label: 'warehousedrc.com',
-    linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
     company: 'Shaba Industry',
   },
   {
     src: '/img/shabaindustrie.png',
     name: 'Shaba Industry',
 
-    achievements: '$ Stars',
+    achievements: '',
     description:
       'As the Lead Engineer, I developed a user-friendly and visually striking website for Shaba Industry, a key player in the entertainment sector. This site serves as a comprehensive portal for customers, partners, and stakeholders to explore their safety equipment and services, enhancing the brand’s online presence and engagement',
-    techUsed: ['React', 'Next', 'Typescript', 'Tailwind CSS', 'Bootstrap'],
+    techUsed: [
+      'React.js',
+      'Next.js',
+      'Typescript',
+      'Tailwind CSS',
+      'Bootstrap',
+      'Webpack',
+      'EsLint',
+      'PostCSS',
+      'Prettier',
+      'VS Code',
+    ],
     url: 'https://shabaindustrie.com',
     label: 'shabaindustrie.com',
     linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    achievementIcon: '/icons/app.png',
 
     year: '2023',
     company: 'Shaba Industry',
@@ -167,28 +187,28 @@ export const projects = [
     description:
       'Mexco SAS, a leading mining equipment rental company, entrusted us with the creation of their online platform. Leveraging modern technologies, I developed a user-friendly website that effectively showcases their services and solutions for the mining industry',
 
-    achievements: '100k Installs',
-    techUsed: ['Wix', 'HTML', 'SAAS'],
+    achievements: '',
+    techUsed: ['Wix', 'HTML', 'Saas', 'JavaScript'],
     url: 'https://mexco-sas.com',
     year: '2022',
     label: 'mexco-sas.com',
     linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    achievementIcon: '/icons/app.png',
 
     company: 'CIC Global',
   },
   {
     src: '/img/katshi-v1.png',
-    name: 'Katshi.dev v1',
+    name: 'Katshi.dev',
 
     achievements: '',
     description:
       'An old personal portfolio showcasing my front-end development skills using HTML, SAAS and JavaScript',
-    techUsed: ['HTML', 'SCSS', 'JavaScript'],
+    techUsed: ['HTML', 'Saas', 'JavaScript'],
     url: 'https://v1.katshi.dev',
     label: 'v1.katshi.dev',
     linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    achievementIcon: '/icons/app.png',
 
     year: '2022',
     company: 'Katshi.dev',
@@ -201,12 +221,12 @@ export const achievements = [
     description:
       ' Achieved first place in the Sub-Saharan Africa region in the prestigious Cisco NetRiders competition, showcasing exceptional networking skills and knowledge',
 
-    achievements: '100k Installs',
-    techUsed: ['CCNA', 'CCENT', 'Routing and Switching', 'Security'],
+    achievements: 'Top Talent Prize',
+    techUsed: ['CCNA', 'CCENT', 'CCDA', 'Routing and Switching', 'Security'],
     url: 'https://icemalta.com/campaigns/cisco-netriders-competition/',
     year: '2016',
     linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    achievementIcon: '/icons/band.png',
 
     label: 'Cisco Networking Academy Netriders 2016',
 
@@ -216,14 +236,21 @@ export const achievements = [
     src: '/img/lazola.png',
     name: 'Innovative Lazola Football Training',
     description:
-      'I enjoy directing innovative sports training videos as a hobby. My work on the Lazola coach training video with TP Mazembe players blends sports training with engaging visual storytelling. The video gained significant traction on social media and was featured on BBC Africa News',
+      'I enjoy directing innovative videos as a hobby. My work on the Lazola coach training video with TP Mazembe players blends sports training with engaging visual storytelling. The video gained significant traction on social media and was featured on BBC Africa News in 2022',
 
-    achievements: '+710k social media views',
-    techUsed: ['Adobe Premiere Pro', 'Adobe Photoshop', 'Sony A7SIII'],
+    achievements: '1M+ social media views',
+    techUsed: [
+      'Sony A7SIII',
+      'DJI Mavic Air 2',
+
+      'Adobe Premiere Pro',
+      'Adobe Media Encoder',
+      'Adobe Photoshop',
+    ],
     url: 'https://www.youtube.com/watch?v=U59uwYBJndQ',
     year: '2022',
     linkIcon: '/icons/link.png',
-    achievementIcon: '/icons/link.png',
+    achievementIcon: '/icons/eye.png',
     label: 'Lazola Training',
     company: 'Lugan Media',
   },
