@@ -1,16 +1,21 @@
 {
   "short_name": "Katshi.dev",
   "name": "Nathan Katshi | Front End Engineer",
+  "description": "The portfolio website showcasing the work and skills of Nathan Katshi, a front-end engineer specializing in React and modern web technologies.",
   "icons": [
     {
-      "src": "g-icon.svg",
-      "sizes": "any",
+      "src": "icon.svg",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
     }
   ],
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#0F172A",
-  "background_color": "#0F172A"
+  "background_color": "#0F172A",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en"
 }

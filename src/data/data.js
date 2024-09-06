@@ -33,7 +33,7 @@ export const experience = [
     ],
     techStack: [
       'React',
-      'Next',
+      'NextJS',
       'Typescript',
       'Tailwind CSS',
       'Figma',
@@ -50,7 +50,7 @@ export const experience = [
     previousPositionTwo: 'Project Specialist',
     duration: '2020 - 2022',
     description:
-      'Designed, deployed, and maintained mission-critical applications in the cloud, ensuring HA, scalability, and security for diverse enterprise environments. Utilized cutting-edge technologies such as AWS to build robust infrastructure that supported seamless operations and rapid deployment. Led the development and implementation of comprehensive web and mobile applications for a wide range of clients, leveraging frameworks like React, Next, Bootstrap, Vue.js, and Flutter. Architected and optimized backend systems, including databases and ERPs, to ensure efficient data flow and integration',
+      'Designed, deployed, and maintained mission-critical applications in the cloud, ensuring HA, scalability, and security for diverse enterprise environments. Utilized cutting-edge technologies such as AWS to build robust infrastructure that supported seamless operations and rapid deployment. Led the development and implementation of comprehensive web and mobile applications for a wide range of clients, leveraging frameworks like React, NextJS, Bootstrap, and Vue. Architected and optimized backend systems, including databases and ERPs, to ensure efficient data flow and integration',
     companyURL: 'https://motexcongo.com',
     linkIcon: '/icons/external-link.png',
     achievementIcon: '/icons/app.png',
@@ -59,7 +59,7 @@ export const experience = [
     techStack: [
       'React',
       'Typescript',
-      'SAAS',
+      'Saas',
       'WordPress',
       'Wix',
       'Amazon Web Services',
@@ -71,7 +71,7 @@ export const experience = [
     previousPositionOne: '',
     duration: '2017 - 2019',
     description:
-      'Led the complete redesign of the corporate network at Lubumbashi HQ and upgraded branch networks by migrating the HQ and 12 branches across the country to a Cisco DMVPN infrastructure (Single-Hub Dual-Cloud over MPLS L3 VPN), optimizing network performance and security. Drafted, implemented, and enforced the company’s IT security policy. Managed company licences, servers, databases, and clusters in a Microsoft environment, ensuring high availability, performance, and security through regular maintenance, updates, and monitoring',
+      'Led the complete redesign of the corporate network at Lubumbashi HQ and upgraded branch networks by migrating the Headquarters campus network and 12 branches across the country to a Cisco DMVPN infrastructure (Single-Hub Dual-Cloud over MPLS L3 VPN), optimizing network performance and security. Drafted, implemented, and enforced the company’s IT security policy. Managed company licences, servers, databases, and clusters in a Windows Server environment, ensuring high availability, performance, and security through regular maintenance, updates, and monitoring',
     companyURL: 'https://brasimba.com',
     linkIcon: '/icons/external-link.png',
     achievementIcon: '/icons/app.png',
@@ -97,7 +97,7 @@ export const experience = [
     previousPositionOne: 'IT Support',
     duration: '2016 - 2017',
     description:
-      'Handled network implementation, including LAN cabling and configuration of routers and switches. Deployed Windows and Linux servers, configuring essential network services such as DHCP, FTP, and NAC.Provided technical support to end users, resolving tickets both on-site and remotely',
+      'Handled network implementation, including LAN cabling and configuration of routers and switches. Deployed Windows and Linux servers, configuring essential network services such as DHCP, FTP, and NAC. Provided technical support to end users, resolving tickets both on-site and remotely',
 
     companyURL: 'https://tmb.cd',
     linkIcon: '/icons/external-link.png',
@@ -134,11 +134,11 @@ export const projects = [
     src: '/img/warehousedrc.png',
     name: 'Ware House DRC',
     description:
-      'Crafted a vibrant and interactive website for Ware House, a premier restaurant, lounge bar, and nightclub in the Lubumbashi. Leveraged React, NextJS, TypeScript, and Tailwind CSS to deliver a seamless and engaging user experience, significantly boosting the venue’s online visibility and customer engagement',
+      'Crafted a vibrant and interactive website for Ware House, a premier restaurant, lounge bar, and nightclub in Lubumbashi. Leveraged React, NextJS, TypeScript, and Tailwind CSS to deliver a seamless and engaging user experience, significantly boosting the venue’s online visibility and customer engagement',
 
     achievements: '',
     techUsed: [
-      'React.js',
+      'React',
       'Bootstrap',
       'NodeJS',
       'Firebase',
@@ -155,6 +155,30 @@ export const projects = [
     company: 'Shaba Industry',
   },
   {
+    src: '/img/katshi-v2.png',
+    name: 'Katshi.dev',
+    description:
+      'Newer version of my portfolio website designed in Figma, built with React/NextJS, styled with Tailwind CSS',
+
+    achievements: '',
+    techUsed: [
+      'React',
+      'NextJS',
+
+      'Tailwind CSS',
+      'Figma',
+      'VS Code',
+      'Vite',
+      'Font Awesome',
+    ],
+    url: '/',
+    year: '2024',
+    label: 'katshi.dev',
+    linkIcon: '/icons/external-link.png',
+    achievementIcon: '/icons/app.png',
+    company: 'Katshi.dev',
+  },
+  {
     src: '/img/shabaindustrie.png',
     name: 'Shaba Industry',
 
@@ -162,7 +186,7 @@ export const projects = [
     description:
       'As the Lead Engineer, I developed a user-friendly and visually striking website for Shaba Industry, a key player in the entertainment sector. This site serves as a comprehensive portal for customers, partners, and stakeholders to explore their safety equipment and services, enhancing the brand’s online presence and engagement',
     techUsed: [
-      'React.js',
+      'React',
       'NextJS',
       'Typescript',
       'Tailwind CSS',
@@ -185,7 +209,7 @@ export const projects = [
     src: '/img/mexco-sas.png',
     name: 'Mexco SAS',
     description:
-      'Mexco SAS, a leading mining equipment rental company, entrusted us with the creation of their online platform. Leveraging modern technologies, I developed a user-friendly website that effectively showcases their services and solutions for the mining industry',
+      'Mexco SAS, a leading mining service corporation, entrusted us with the creation of their online platform. Using modern technologies, I developed a user-friendly website that effectively showcases their services and solutions for the mining industry',
 
     achievements: '',
     techUsed: ['Wix', 'HTML', 'Saas', 'JavaScript'],
@@ -203,7 +227,7 @@ export const projects = [
 
     achievements: '',
     description:
-      'An old personal portfolio showcasing my front-end development skills using HTML, SAAS and JavaScript',
+      'An old personal portfolio showcasing my front-end development skills using HTML, Saas and JavaScript',
     techUsed: ['HTML', 'Saas', 'JavaScript'],
     url: 'https://v1.katshi.dev',
     label: 'v1.katshi.dev',
@@ -221,7 +245,7 @@ export const achievements = [
     description:
       ' Achieved first place in the Sub-Saharan Africa region in the prestigious Cisco NetRiders competition, showcasing exceptional networking skills and knowledge',
 
-    achievements: 'Top Talent Prize',
+    achievements: 'Won Top Talent Prize',
     techUsed: ['CCNA', 'CCENT', 'CCDA', 'Routing and Switching', 'Security'],
     url: 'https://icemalta.com/campaigns/cisco-netriders-competition/',
     year: '2016',

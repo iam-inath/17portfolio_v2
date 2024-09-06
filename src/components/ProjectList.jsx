@@ -36,7 +36,7 @@ function ProjectList() {
       <div className='h-screen mx-6 sm:mx-12 lg:mx-0'>
         <a href='/' className='flex items-center group'>
           <img
-            src={leftArrow}
+            src={backButton}
             height={20}
             width={20}
             className='mr-2 icon-secondary group-hover:icon-hover'
@@ -74,7 +74,7 @@ function ProjectList() {
                   <td className='py-4 text-sm align-top ali lg:pb-6 text-slate-400'>
                     {project.year}
                   </td>
-                  <td className='flex py-4 font-semibold align-top max-sm:hover:text-secondary lg:pb-6'>
+                  <td className='flex py-4 font-semibold align-top text-md max-sm:hover:text-secondary lg:pb-6'>
                     {project.name}{' '}
                     {smallScreen && (
                       <i class='fa fa-external-link' aria-hidden='true'></i>

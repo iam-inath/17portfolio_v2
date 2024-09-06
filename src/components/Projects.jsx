@@ -60,7 +60,7 @@ function Projects() {
               {project.techUsed.map((tech, index) => (
                 <h3
                   key={index}
-                  className='flex items-center px-3 my-2 text-xs rounded-full bg-opacity-10 bg-secondary text-secondary'
+                  className='flex items-center px-3 py-1 text-xs rounded-full bg-opacity-10 bg-secondary text-secondary'
                 >
                   {tech}
                 </h3>
