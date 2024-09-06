@@ -134,13 +134,13 @@ export const projects = [
     src: '/img/warehousedrc.png',
     name: 'Ware House DRC',
     description:
-      'Crafted a vibrant and interactive website for Ware House, a premier restaurant, lounge bar, and nightclub in the Lubumbashi. Leveraged React, Next.js, TypeScript, and Tailwind CSS to deliver a seamless and engaging user experience, significantly boosting the venue’s online visibility and customer engagement',
+      'Crafted a vibrant and interactive website for Ware House, a premier restaurant, lounge bar, and nightclub in the Lubumbashi. Leveraged React, NextJS, TypeScript, and Tailwind CSS to deliver a seamless and engaging user experience, significantly boosting the venue’s online visibility and customer engagement',
 
     achievements: '',
     techUsed: [
       'React.js',
       'Bootstrap',
-      'Node.js',
+      'NodeJS',
       'Firebase',
       'EmailJS',
       'EsLint',
@@ -163,7 +163,7 @@ export const projects = [
       'As the Lead Engineer, I developed a user-friendly and visually striking website for Shaba Industry, a key player in the entertainment sector. This site serves as a comprehensive portal for customers, partners, and stakeholders to explore their safety equipment and services, enhancing the brand’s online presence and engagement',
     techUsed: [
       'React.js',
-      'Next.js',
+      'NextJS',
       'Typescript',
       'Tailwind CSS',
       'Bootstrap',
