@@ -4,7 +4,7 @@ function Notes() {
   return (
     <div className='text-xs tracking-wide lg:text-xs'>
       <p>
-        Loosely designed in{' '}
+        Carefully designed in{' '}
         <a href='https://www.figma.com'>
           <span className='text-slate-200 hover:text-secondary'>Figma</span>{' '}
         </a>
@@ -16,7 +16,7 @@ function Notes() {
         </a>{' '}
         by yours truly. Built with
         <a href='https://www.react.dev'>
-          <span className='text-slate-200 hover:text-secondary'> React.js</span>
+          <span className='text-slate-200 hover:text-secondary'> ReactJS</span>
         </a>{' '}
         and{' '}
         <a href='https://www.tailwindcss.com'>

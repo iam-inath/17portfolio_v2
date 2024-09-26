@@ -18,7 +18,7 @@ export default function Sections() {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.6,
+      threshold: 0.1,
     }
 
     const observer = new IntersectionObserver((entries) => {
@@ -37,6 +37,7 @@ export default function Sections() {
     })
 
     return () => {
+      observer.disconnect()
       sections.forEach((section) => {
         const element = document.getElementById(section.href.replace('#', ''))
         if (element) {
@@ -47,7 +48,7 @@ export default function Sections() {
   }, [])
 
   return (
-    <div className="max-lg:hidden lg:my-20">
+    <div className='max-lg:hidden lg:my-20'>
       {sections.map((section) => (
         <ul key={section.href}>
           <li
@@ -59,7 +60,12 @@ export default function Sections() {
           >
             <a
               href={section.href}
-              className="text-xs font-semibold tracking-widest uppercase lg:justify-start lg:items-center lg:flex lg:my-6 hover:text-slate-200"
+              className='text-xs font-semibold tracking-widest uppercase lg:justify-start lg:items-center lg:flex lg:my-6 hover:text-slate-200'
+              aria-current={
+                currentSection === section.href.replace('#', '')
+                  ? 'page'
+                  : undefined
+              }
             >
               <Line
                 isActive={currentSection === section.href.replace('#', '')}

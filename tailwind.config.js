@@ -25,7 +25,7 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        primary: '#0C1024',
+        primary: '#0F172A',
         secondary: '#5EEAD4',
         'slate-gray': '#94A3B8',
       },
@@ -37,6 +37,7 @@ export default {
         card: "url('')",
       },
       screens: {
+        lg: '1200px',
         wide: '1440px',
       },
     },

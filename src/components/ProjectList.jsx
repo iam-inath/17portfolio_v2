@@ -69,48 +69,52 @@ function ProjectList() {
               </tr>
             </thead>
             <tbody>
-              {projects.map((project) => (
-                <tr key={project.id} className='border-b border-slate-800'>
-                  <td className='py-4 text-sm align-top ali lg:pb-6 text-slate-400'>
-                    {project.year}
-                  </td>
-                  <td className='flex py-4 font-semibold align-top text-md max-sm:hover:text-secondary lg:pb-6'>
-                    {project.name}{' '}
-                    {smallScreen && (
-                      <i class='fa fa-external-link' aria-hidden='true'></i>
-                    )}
-                  </td>
-                  <td className='py-4 pb-6 text-sm align-top max-lg:hidden text-slate-400'>
-                    {project.company}
-                  </td>
-                  <td className='py-4 align-top lg:pb-6 max-lg:hidden lg:w-1/3'>
-                    <ul className='flex flex-wrap gap-2'>
-                      {project.techUsed.map((tech, index) => (
-                        <li
-                          key={index}
-                          className='px-4 py-1 text-xs rounded-full bg-opacity-10 bg-secondary text-secondary'
+              {projects.map(
+                (project) =>
+                  project.isComplete && (
+                    <tr key={project.id} className='border-b border-slate-800'>
+                      <td className='py-4 text-sm align-top ali lg:pb-6 text-slate-400'>
+                        {project.year}
+                      </td>
+                      <td className='flex py-4 font-semibold align-top text-md max-sm:hover:text-secondary lg:pb-6'>
+                        {project.name}{' '}
+                        {smallScreen && (
+                          <i class='fa fa-external-link' aria-hidden='true'></i>
+                        )}
+                      </td>
+                      <td className='py-4 pb-6 text-sm align-top max-lg:hidden text-slate-400'>
+                        {project.company}
+                      </td>
+                      <td className='py-4 align-top lg:pb-6 max-lg:hidden lg:w-1/3'>
+                        <ul className='flex flex-wrap gap-2'>
+                          {project.techUsed.map((tech, index) => (
+                            <li
+                              key={index}
+                              className='px-4 py-1 text-xs rounded-full bg-opacity-10 bg-secondary text-secondary'
+                            >
+                              {tech}
+                            </li>
+                          ))}
+                        </ul>
+                      </td>
+                      <td className='py-4 align-top lg:pb-7'>
+                        <a
+                          href={project.url}
+                          target='_blank'
+                          className='flex items-center text-sm font-semibold group hover:text-secondary text-slate-300'
                         >
-                          {tech}
-                        </li>
-                      ))}
-                    </ul>
-                  </td>
-                  <td className='py-4 align-top lg:pb-7'>
-                    <a
-                      href={project.url}
-                      className='flex items-center text-sm font-semibold group hover:text-secondary text-slate-300'
-                    >
-                      {project.label}
-                      <img
-                        src={externalLink}
-                        height={20}
-                        width={20}
-                        className='ml-2 transition-colors duration-100 icon group-hover:icon-hover'
-                      />
-                    </a>
-                  </td>
-                </tr>
-              ))}
+                          {project.label}
+                          <img
+                            src={externalLink}
+                            height={20}
+                            width={20}
+                            className='ml-2 transition-colors duration-100 icon group-hover:icon-hover'
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  )
+              )}
             </tbody>
           </table>
         </div>

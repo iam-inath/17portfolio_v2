@@ -1,6 +1,6 @@
 import React from 'react'
 import { experience } from '../data/data'
-import { downloads, downloadPdf } from '/public/icons/icons'
+import { downloads } from '/public/icons/icons'
 
 function Experience() {
   return (
@@ -10,9 +10,9 @@ function Experience() {
       </h2>
       {experience.map((position, index) => (
         <a
-          href={position.companyURL}
-          target='_blank'
-          rel='noopener noreferrer'
+          href={position.companyURL && position.companyURL}
+          target={position.companyURL && '_blank'}
+          rel={position.companyURL && 'noopener noreferrer'}
           key={index}
         >
           <div className='relative transition-opacity duration-300 mb-14 lg:rounded-lg md:flex bg-slate-900 hover:bg-opacity-50'>
@@ -42,27 +42,27 @@ function Experience() {
                 {position.description}
               </p>
               <div className='flex flex-row flex-wrap justify-start gap-2'>
-                {position.products.map((product, productIndex) =>
-                  product.name ? (
-                    <div key={productIndex}>
-                      <a
-                        href={product.url}
-                        className='flex items-center my-2 group'
-                      >
-                        <img
-                          src={position.achievementIcon}
-                          height={14}
-                          width={14}
-                          className='mr-1 transition-colors duration-100 icon icon-hover'
-                        />
-                        <h3 className='text-sm capitalize transition-colors duration-300 text-slate-300 group-hover:text-secondary'>
-                          {product.name}
-                        </h3>
-                      </a>
-                    </div>
-                  ) : (
-                    ''
-                  )
+                {position.products.map(
+                  (product, productIndex) =>
+                    product.name && (
+                      <div key={productIndex}>
+                        <a
+                          href={product.url}
+                          className='flex items-center my-2 group'
+                          target='_blank'
+                        >
+                          <img
+                            src={position.achievementIcon}
+                            height={14}
+                            width={14}
+                            className='mr-1 transition-colors duration-100 icon icon-hover'
+                          />
+                          <h3 className='text-sm capitalize transition-colors duration-300 text-slate-300 group-hover:text-secondary'>
+                            {product.name}
+                          </h3>
+                        </a>
+                      </div>
+                    )
                 )}
               </div>
 
