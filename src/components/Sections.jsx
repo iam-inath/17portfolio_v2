@@ -18,7 +18,7 @@ export default function Sections() {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.1,
+      threshold: 0.2,
     }
 
     const observer = new IntersectionObserver((entries) => {
@@ -49,32 +49,35 @@ export default function Sections() {
 
   return (
     <div className='max-lg:hidden lg:my-20'>
-      {sections.map((section) => (
-        <ul key={section.href}>
-          <li
-            className={`lg:my-4 group ${
-              currentSection === section.href.replace('#', '')
-                ? 'text-slate-200'
-                : ''
-            }`}
-          >
-            <a
-              href={section.href}
-              className='text-xs font-semibold tracking-widest uppercase lg:justify-start lg:items-center lg:flex lg:my-6 hover:text-slate-200'
-              aria-current={
-                currentSection === section.href.replace('#', '')
-                  ? 'page'
-                  : undefined
-              }
-            >
-              <Line
-                isActive={currentSection === section.href.replace('#', '')}
-              />
-              {section.label}
-            </a>
-          </li>
-        </ul>
-      ))}
+      {sections.map(
+        (section) =>
+          section.active && (
+            <ul key={section.href}>
+              <li
+                className={`lg:my-4 group ${
+                  currentSection === section.href.replace('#', '')
+                    ? 'text-slate-200'
+                    : ''
+                }`}
+              >
+                <a
+                  href={section.href}
+                  className='text-xs font-semibold tracking-widest uppercase lg:justify-start lg:items-center lg:flex lg:my-6 hover:text-slate-200'
+                  aria-current={
+                    currentSection === section.href.replace('#', '')
+                      ? 'page'
+                      : undefined
+                  }
+                >
+                  <Line
+                    isActive={currentSection === section.href.replace('#', '')}
+                  />
+                  {section.label}
+                </a>
+              </li>
+            </ul>
+          )
+      )}
     </div>
   )
 }

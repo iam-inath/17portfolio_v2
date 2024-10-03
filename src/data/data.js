@@ -8,10 +8,11 @@ export const person = [
 ]
 
 export const sections = [
-  { label: 'About', href: '#about' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Fun Facts', href: '#achievements' },
+  { label: 'About', href: '#about', active: true },
+  { label: 'Experience', href: '#experience', active: true },
+  { label: 'Projects', href: '#projects', active: true },
+  { label: 'Articles', href: '/blog', active: false },
+  { label: 'Fun Facts', href: '#achievements', active: true },
 ]
 
 export const experience = [
